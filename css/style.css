@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css?family=Space+Mono');
+
+
+html, body {
+  background-color: #323232;
+  margin: 0px;
+  padding: 0px;
+}
+
+#container {
+  height: 400px;
+  width: 300px;
+  background-color: #E6E6E6;
+  margin-top: 3%;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 0px;
+  font-weight: bold;
+  font-family: 'Space Mono',monospace;
+}
+
+h1 {
+  margin-top: 30px;
+  text-align: center;
+  color: #E6E6E6;
+}
+
+#entry-area {
+  height: 25%;
+  width: 100%;
+  margin: 0px;
+  background-color: #1E1E1E;
+}
+
+#answer {
+  margin-right: 10px;
+  text-align: right;
+}
+
+#answer-text {
+  color: #D7D7D7;
+  font-size: 45px;
+  line-height: 140px;
+}
+
+#button-area {
+  width: 300px;
+  height: 300px;
+  display: inline-block;
+  background-color: #3EB96B;
+  position: absolute;
+  font-size: 0;
+}
+
+button {
+  width: 75px;
+  height: 60px;
+  font-size: 20px;
+  border-style: solid;
+  border-width: 0.1px;
+  border-color: #646464;
+  margin: 0px;
+  padding: 0px;
+  background-color: #D7D7D7;
+  display: inline-block;
+}
+
+button:active {
+  background-color: #878786;
+}
+
+button,
+button:hover,
+button:active,
+button:visited {
+  text-decoration: none !important;
+  outline: none !important;
+}
+
+.top {
+  background-color: #B4B4B4;
+}
+
+.top:active {
+  background-color: #6B6A68;
+}
+
+.right {
+  background-color: #E48A25;
+  color: #D7D7D7;
+}
+
+.right:active {
+  background-color: #70410C;
+}
+
+#zero {
+  width: 50%;
+}
+
+#madeby {
+  font-size: 1.5em;
+  color: black;
+  text-align: center;
+}
+
+#fcc-link {
+  color: #E48A25;
+}
